@@ -1,0 +1,55 @@
+.btn-width {
+  width: 20vh;
+}
+.divNumbers {
+  margin-right: 5px;
+}
+.container {
+  background-color: #d5d5d5;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  font-size: 10vh;
+  color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: larger;
+    background-color: #d5d5d5 !important;
+    margin: 5px;
+    border-left: 10px solid;
+  }
+
+  .container {
+    background-color: white;
+  }
+  .header {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .divNumbers {
+    margin-right: 0px;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+  }
+}
